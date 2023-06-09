@@ -1,0 +1,161 @@
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+
+    background-color: rgb(235, 190, 236);
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.imagemgato{
+    display: flex;
+    justify-content: left;
+
+}
+
+
+#fundobranco{
+    width: 1200px;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    padding-left:0px;
+    padding-right: 0px;
+    border-radius: 17px;
+    -webkit-box-shadow: 0px 0px 27px 12px rgba(0,0,0,0.40);
+    -moz-box-shadow: 0px 0px 27px 12px rgba(0,0,0,0.40);
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.40);
+
+}
+
+p{
+    font-size: 18px;
+    padding:10px;
+    margin:0px;
+    margin-left: 120px;
+    font-family: 'Urbanist', sans-serif;
+    color: black;
+    width: fit-content;
+    margin-right: 0px;
+    display: flex;
+    margin-left: 0px;
+    
+}
+
+
+
+#azul{
+    font-family: 'Urbanist', sans-serif;
+    display: inline-block;
+    color: rgb(182, 25, 174);
+}
+
+
+.container2{
+
+    display: flex;
+    height: 91%;
+    
+}
+
+.container2 .leftside{
+    flex: 1;
+
+}
+
+.container2 .rightside{
+    flex: 1;
+}
+
+.estiloheader{
+    display: flex;
+    justify-content: end;
+    gap: 120px;
+
+    
+
+}
+
+.home, .sobre, .contatoh{
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    font-family: 'Urbanist', sans-serif;
+    font-size:19px;
+    padding-left: 0px;
+    
+}
+
+.home:hover{
+    border-bottom: red;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sobre{
+    border-bottom: 3px solid rgb(182, 25, 174);
+    border-radius: 4px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.home div{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+.contatoh{
+    padding-right: 100px;
+}
+
+header{
+    border-bottom: black solid 1px;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.gabrielp{
+    padding-right: 370px;
+    padding-top: 03px;
+    
+    }
+
+.gabriel{
+    display: flex;
+    align-items: center;
+    gap: -70px;
+}
+
+.iconegato{
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 0px;
+    margin-left: 20px;
+    padding-top: 0px;
+    display: block;
+}
+
+.textosobre{
+    padding: 20px;
+    padding-left: 30px;
+}
+
