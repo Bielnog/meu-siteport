@@ -6,7 +6,7 @@ html, body{
 
 body{
 
-    background-color: rgb(206, 206, 255);
+    background-color: rgb(235, 190, 236);
 
 }
 
@@ -23,9 +23,21 @@ body{
 
 }
 
-.shapeme{
-    padding-left: 60px;
-    padding-top: 12px;
+.eu{
+    padding-left: 0px;
+    padding-top: 0px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-top: 85px;
+    margin-left: 140px;
+    box-shadow: -10px 15px 20px -10px;
+}
+
+.paidireito{
+    display: flex;
+    
 }
 
 #fundobranco{
@@ -109,6 +121,7 @@ hr{
     margin-left: 130px;
     padding-top: 30px;
 }
+
 .container2{
 
     display: flex;
@@ -116,19 +129,20 @@ hr{
     
 }
 
-.container .leftside{
+.container2 .leftside{
     flex: 1;
+    
 
 }
 
-.container .rightside{
+.container2 .rightside{
     flex: 1;
 }
 
 .estiloheader{
     display: flex;
     justify-content: end;
-    gap: 120px
+    gap: 120px;
 
     
 
@@ -153,9 +167,13 @@ a{
 
 .home{
     border-bottom: 3px solid rgb(182, 25, 174);
-    border-radius: 3px;
+    border-radius: 4px;
     padding-bottom: 0px;
     margin-bottom: 0px;
+}
+
+.home:hover{
+    border-bottom: 3px solid rgb(41, 0, 43);
 }
 
 .home div{
