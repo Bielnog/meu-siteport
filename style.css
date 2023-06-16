@@ -6,7 +6,7 @@ html, body{
 
 body{
 
-    background-color: rgb(235, 190, 236);
+    background-color: rgb(209, 209, 209);
 
 }
 
@@ -35,10 +35,7 @@ body{
     box-shadow: -10px 15px 20px -10px;
 }
 
-.paidireito{
-    display: flex;
-    
-}
+
 
 #fundobranco{
     width: 1200px;
@@ -87,6 +84,7 @@ hr{
     margin-right: 0px;
     display: inline-block;
     
+
 }
 
 #azul{
@@ -169,10 +167,6 @@ a{
     border-radius: 4px;
     padding-bottom: 0px;
     margin-bottom: 0px;
-}
-
-.home:hover{
-    border-bottom: 3px solid rgb(41, 0, 43);
 }
 
 .home div{
