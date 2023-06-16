@@ -1,0 +1,254 @@
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+
+    background-color: rgb(209, 209, 209);
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+
+
+#fundobranco{
+    width: 1200px;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    padding-left:0px;
+    padding-right: 0px;
+    border-radius: 17px;
+    -webkit-box-shadow: 0px 0px 27px 12px rgba(0,0,0,0.40);
+    -moz-box-shadow: 0px 0px 27px 12px rgba(0,0,0,0.40);
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.40);
+
+}
+
+p{
+    font-size: 18px;
+    padding:10px;
+    margin:0px;
+    margin-left: 120px;
+    font-family: 'Urbanist', sans-serif;
+    color: black;
+    width: fit-content;
+    margin-right: 0px;
+    display: flex;
+    margin-left: 0px;
+    
+}
+
+
+
+
+
+
+
+
+
+.container2{
+
+    display: flex;
+    height: 91%;    
+    
+}
+
+.container2 .leftside{
+    flex: 1;
+
+}
+
+
+.textocontatos{
+    display: inline-block;
+    font-family: 'Urbanist', sans-serif;
+    line-height: 30px;
+    padding: 30px;
+    padding-bottom: 5px;
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+.hcontatos{
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    display: left;
+    justify-content: center;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 27px;
+}
+
+.container2 .middleside{
+    flex: 1;
+    
+}
+
+.container2 .rightside{
+    flex: 1;
+}
+
+.containerbotao{
+    display: flex;
+    justify-content: center;
+}
+
+
+h1{
+    padding-left: 30px;
+    padding-top: 24px;
+    font-size: 25px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+
+.forms{
+    line-height: 50px;
+    padding: 20px;
+    padding-top: 15px;
+    padding-left: 30px;
+    justify-content: center;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;   
+
+}
+
+.nomeform, .emailform{
+    width: 400px;
+    height: 30px;
+    border: none;
+    outline-color: rgb(235, 235, 235);
+    background-color: rgb(235, 235, 235);
+    border-radius: 3px;
+}
+
+.textform{
+    width: 400px;
+    height: 30px;
+    border: none;
+    outline-color: rgb(235, 235, 235);
+    background-color: rgb(235, 235, 235);
+    border-radius: 3px;
+    margin-top: 10px;
+    height: 120px;
+    resize: none;
+}
+
+::placeholder{
+    padding-left: 10px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+
+.buttonsubmit{
+    color:  white;
+    background: linear-gradient(to right, rgb(182, 25, 174), rgb(107, 47, 83));
+    outline-color: rgb(117, 3, 98);
+    border-radius: 3px;
+    border: none;
+    width: 80px;
+    height: 35px;
+    padding: 7px;
+    font-size: 18px;
+    font-family: 'Urbanist', sans-serif;
+    box-shadow: -8px 7px 9px -2px rgba(0,0,0,0.47);
+
+}
+
+.buttonsubmit:hover{
+    cursor: pointer;
+    background-color: rgb(94, 94, 255);
+    background: linear-gradient(to right, rgb(182, 25, 174),rgb(150, 79, 132));
+
+}
+
+.estiloheader{
+    display: flex;
+    justify-content: end;
+    gap: 120px;
+
+    
+
+}
+
+.home, .sobre, .contatoh{
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    font-family: 'Urbanist', sans-serif;
+    font-size:19px;
+    padding-left: 0px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contatoh{
+    border-bottom: 3px solid rgb(182, 25, 174);
+    border-radius: 4px;
+    padding-bottom: 0px;
+    margin-bottom: 0px; 
+    margin-right: 100px;
+}
+
+.home div{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+
+header{
+    border-bottom: black solid 1px;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.gabrielp{
+    padding-right: 370px;
+    padding-top: 03px;
+    
+    }
+
+.gabriel{
+    display: flex;
+    align-items: center;
+    gap: -70px;
+}
+
+.iconegato{
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 0px;
+    margin-left: 20px;
+    padding-top: 0px;
+    display: block;
+}
+
+
+.textoinfo{
+    font-family: 'Urbanist', sans-serif;
+    line-height: 25px;
+    padding: 30px;
+    padding-bottom: 5px;
+
+}
